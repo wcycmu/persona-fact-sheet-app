@@ -1,0 +1,5 @@
+{
+  "name": "Persona Fact Sheet Generator",
+  "description": "Generates a summarized fact sheet for a person using AI, based on simulated searches of public information sources like Wikipedia, LinkedIn, and Google Scholar.",
+  "requestFramePermissions": []
+}
