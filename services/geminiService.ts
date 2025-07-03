@@ -14,7 +14,7 @@ export const generateFactSheetFromGemini = async (personName: string, apiKey: st
 Generate a fact sheet for "${personName}".
 Imagine you have searched Wikipedia, LinkedIn, and Google Scholar for information about this person.
 Based on publicly available information (or typical information found for a public figure if this person is not widely known or is fictional), provide a summary in the following JSON format.
-Ensure all fields in the JSON are populated. If specific information isn't readily available or applicable for a fictional character, generate plausible, representative examples fitting a professional or public figure. For example, for a fictional wizard, "Primary Connections" could be other characters, and "Education" could be a magical academy.
+Ensure all fields in the JSON are populated. If specific information isn't readily available or applicable for a fictional character, generate plausible, representative examples fitting a professional or public figure. For example, for a fictional wizard, "Primary Connections" could be other characters, and "Education" could be a magical academy. Please provide old citation source.
 
 The JSON output MUST follow this structure EXACTLY:
 {
